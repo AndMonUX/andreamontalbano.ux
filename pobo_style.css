@@ -1,0 +1,237 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+body {
+    background-color: black;
+    color: #FB5A5A;
+    padding: 0 64px;
+    padding-bottom: 48px;
+    font-family: stratos lc web;
+}
+nav {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0;
+}
+.logo {
+    width: 200px;
+    height: auto;
+}
+.nav-buttons {
+    position: relative;
+
+}
+.my-work {
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #FB5A5A;
+    border: none;
+    background: none;
+}
+.about {
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #FB5A5A;
+    border: none;
+    background: none;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #FB5A5A;
+}
+h2, .main-h2 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+h2 {
+    color: #FB5A5A;
+}
+.main-h2 {
+    color: #FF8F8F;
+}
+p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 200%;
+    letter-spacing: 5%;
+    color: #FF8F8F;
+}
+
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #FB5A5A;
+    text-decoration: none;
+    font-family: stratos lc web;
+    width: 380px;
+    height: 340px;
+    margin: 24px 0;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.btn.my-role::after,
+.btn.my-role::before {
+    content: "My role";
+    color: black;
+    font-size: 32px;
+    letter-spacing: 13%;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 10.5;
+    transition: all 200ms;
+    top: 0;
+}
+.btn.my-role:hover:after {
+    top: -350px;
+}
+.btn.my-role::before {
+    content: "Competitor analysis, User test the current website, Sketching design solutions, Hi-fidelity prototype, Test new prototype with users.";
+    color: black;
+    width: auto;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 2%;
+    line-height: 187%;
+    top: 350px;
+    padding-top: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.btn.my-role:hover:before {
+    top: 0;
+}
+
+
+
+
+
+
+.btn.challenge::after,
+.btn.challenge::before {
+    content: "Challenge";
+    color: black;
+    font-size: 32px;
+    letter-spacing: 13%;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 10.5;
+    transition: all 200ms;
+    top: 0;
+}
+.btn.challenge:hover:after {
+    top: -350px;
+}
+.btn.challenge::before {
+    content: "Redesign the company website through a UX process, focusing on users' needs to create a better experience and increase website's interactions.";
+    color: black;
+    width: auto;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 2%;
+    line-height: 187%;
+    top: 350px;
+    padding-top: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.btn.challenge:hover:before {
+    top: 0;
+}
+
+
+
+
+
+.btn.project-time::after,
+.btn.project-time::before {
+    content: "Project time";
+    color: black;
+    font-size: 32px;
+    letter-spacing: 13%;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 10.5;
+    transition: all 200ms;
+    top: 0;
+}
+.btn.project-time:hover:after {
+    top: -350px;
+}
+.btn.project-time::before {
+    content: "3 months";
+    color: black;
+    width: auto;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 2%;
+    line-height: 187%;
+    top: 390px;
+    padding-top: 150px;
+    padding-left: 130px;
+}
+.btn.project-time:hover:before {
+    top: 0;
+}
+.background {
+    padding: 32px 0;
+}
+.pobo-main-img {
+    width: 100%;
+    height: auto;
+    padding-top: 32px;
+}
+.research-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+}
+.research-content {
+    width: 410px;
+    height: 724px;
+    text-align: right;
+}
+.h1-research {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+.search-icon {
+    width: 314px;
+    height: auto;
+}
+.research-text-container {
+    width: 902px;
+    height: auto;
+}
+.h2-reseach {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+.p-research {
+    width: 80%;
+}

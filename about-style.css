@@ -1,0 +1,132 @@
+nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 0;
+    padding-left: 50%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 64px;
+    margin-right: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    right: 122%;
+
+}
+.my-work {
+    font-family: eloquia display;
+    font-weight: bold;
+    font-size: 18px;
+    color: #E90000;
+    text-decoration: none;
+    padding: 0 2px;
+    float: right;
+    position: relative;
+    left: 70px;
+}
+.my-work:hover {
+    border-bottom: #E90000 solid 5px;
+}
+.about {
+    font-family: eloquia display;
+    font-weight: bold;
+    font-size: 18px;
+    color: #E90000;
+    text-decoration: none;
+    padding: 0 2px;
+    float: right;
+}
+.about:hover {
+    border-bottom: #E90000 solid 5px;
+}
+.main-text {
+  margin-top: 20px;
+    padding: 0 64px;  
+}
+.wrapper-white {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 20px 64px;
+}
+.h1-text {
+    color: #E90000;
+    font-family: eloquia display;
+    font-size: 64px;
+    letter-spacing: 6px;
+    position: relative;
+    top: 35px;
+}
+.h2-text {
+    color: #5A5A5A;
+    font-family: eloquia text;
+    font-weight: bolder;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+.h2-about, .h2-contact {
+    color: #E90000;
+    font-family: eloquia display;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+.h3-contact {
+    color: black;
+    font-family: eloquia text;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+p {
+    color: black;
+    font-family: eloquia text;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.andrea-photo {
+    width: 433px;
+    height: 540px;
+    position: relative;
+    top: 40px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 6px 0 #E90000);
+}
+.about-me {
+    width: 60%;
+}
+.gmail, .linkedin {
+    width: 45px;
+    height: auto;
+    padding-top: 8px;
+}.gmail {
+    padding-right: 32px;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 40px 64px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #EFEFEF;
+
+}
+.gmail-link {
+    position: relative;
+    left: 350px;
+}
+h4, .gmail-link, .linkedin-link {
+    color: #E90000;
+    font-family: eloquia text;
+    font-size: 16px;
+}
+.gmail-link, .linkedin-link {
+    position: relative;
+    top: 19px;
+}

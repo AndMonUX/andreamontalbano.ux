@@ -1,0 +1,201 @@
+nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 0;
+    padding-left: 50%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 64px;
+    margin-right: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    position: relative;
+    right: 122%;
+
+}
+.my-work {
+    font-family: eloquia display;
+    font-weight: bold;
+    font-size: 18px;
+    color: #E90000;
+    text-decoration: none;
+    padding: 0 2px;
+    float: right;
+    position: relative;
+    left: 70px;
+}
+.my-work:hover {
+    border-bottom: #E90000 solid 5px;
+}
+.about {
+    font-family: eloquia display;
+    font-weight: bold;
+    font-size: 18px;
+    color: #E90000;
+    text-decoration: none;
+    padding: 0 2px;
+    float: right;
+}
+.about:hover {
+    border-bottom: #E90000 solid 5px;
+}
+.main-text {
+  margin-top: 20px;
+    padding: 0 64px;  
+}
+b {
+    font-weight: bolder;
+    color: #B00000;
+}
+.h1-text {
+    color: #E90000;
+    font-family: eloquia display;
+    font-size: 64px;
+    letter-spacing: 6px;
+    position: relative;
+    top: 35px;
+}
+.h2-text {
+    color: #5A5A5A;
+    font-family: eloquia text;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+.h2-card {
+    color: #E90000;
+    font-family: eloquia display;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+p, li {
+    color: black;
+    font-family: eloquia text;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.wrapper-white {
+    display: block;
+    height: fit-content;
+    margin-top: 20px;
+    padding: 50px 64px;
+    
+
+}
+/*
+.wrapper-grey {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    margin-top: 20px;
+    padding: 100px 64px;
+    background-color: #EEEEEE;
+}
+*/
+.scroll {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.problem {
+    width: 100%;
+    margin: 0, 64px;
+}
+.welc-desk {
+    width: 756px;
+    height: 434px;
+}
+.welc-mob {
+    width: 218px;
+    height: 444px;
+}
+
+/*
+.understand, .solution, .results, .now {
+    width: 60%;
+    margin: 0, 64px;
+}
+.ideation {
+    width: 80%;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.h1-text {
+    color: #E90000;
+    font-family: eloquia display;
+    font-size: 64px;
+    letter-spacing: 6px;
+    position: relative;
+    top: 35px;
+}
+.h2-text {
+    color: #5A5A5A;
+    font-family: eloquia text;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+.h2-card {
+    color: #E90000;
+    font-family: eloquia display;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+p, li {
+    color: black;
+    font-family: eloquia text;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+
+.search-icon, .pencil-icon {
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+.text-icon {
+    display: block;
+}
+
+.rocket-icon {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.top-cta, .bottom-cta {
+    width: 327px;
+    height: 665px;
+    position: relative;
+    right: 32px;
+    padding-top: 40px;
+}
+.AB-test {
+    width: 710px;
+    height: auto;
+}
+.sticky-video {
+    width: 327px;
+    height: 665px;
+    border-radius: 50px;
+    position: relative;
+    left: 480px;
+    filter: drop-shadow(40px 20px 14 black);
+    
+}
+.now {
+    display: flex;
+    justify-content: space-between;
+}
+*/
